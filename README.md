@@ -1,1 +1,1 @@
-since im kind you can use this as a base for your own site by simply forking but for goodness sake change a thing or two :) (i wont stop you either way), you also apparently need my permission to do so so msg me on discord or something, there is 99% chance ill say yes. 
+since im kind you can use this as a base for your own site by simply forking but for goodness sake change a thing or two :) (i wont stop you either way).
