@@ -1,1 +1,7 @@
-since im kind you can use this as a base for your own site by simply forking but for goodness sake change a thing or two :) (i wont stop you either way).
+this site is made using Material for MkDocs
+
+thats... thats it...
+
+credits are in the actual website
+
+check the `source` folder for the MkDocs source

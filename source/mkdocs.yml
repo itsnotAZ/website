@@ -1,0 +1,80 @@
+site_name: itsnotAZ
+site_url: https://itsnotaz.github.io/website/
+#repo_url: https://github.com/itsnotaz/website
+#repo_name: itsnotaz/website
+copyright: >
+           copyright &copy; 2024 itsnotAZ.
+           with love from 🇬🇷.
+           <a href="#__consent">click me to manage 🍪.</a>
+nav:
+  - home: index.md
+  - my projects: download.md
+  - documentation: about.md
+  - credits: credits.md
+extra_css:
+  - css.css
+theme:
+  name: material
+  #favicon: img/favicon.ico
+  custom_dir: overrides
+  logo: img/logo.png
+  #icon:
+  #  repo: fontawesome/brands/github
+  font:
+    text: Work Sans
+  palette:
+    scheme: slate
+    accent: deep purple
+    primary: indigo
+extra:
+  generator: true
+  analytics:
+    provider: google
+    property: G-4VB04B7L99
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/itsnotaz
+    #- icon: fontawesome/brands/discord
+    #  link: https://discord.gg/PjgKqNRv7B
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@itsnotAZ
+    - icon: fontawesome/brands/reddit-alien
+      link: https://www.reddit.com/user/itsnotAZ
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/itisntaz
+  consent:
+    actions:
+      - accept
+      - reject
+      - manage
+    title: 🍪
+    description: >- 
+      I use cookies to see if you can find what you looking for and collect
+      analytic data. This means that I will use cookies to continuously improve 
+      my website and what I offer on it. I do not share data with anyone outside
+      of analytics providers, which you can click "Manage" in order to see.
+      Agreeing is optional of course!
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: fontawesome/solid-thumbs-up
+          name: Yes!
+          data: 1
+          note: >-
+            Thanks for sharing your thoughts!
+        - icon: fontawesome/solid-thumbs-down
+          name: No!
+          data: 0
+          note: >- 
+            Thanks for sharing your thoughts! Help me improve this page by
+            messaging me on discord (itisnotaz) or emailing me on 
+            itsnotaz@protonmail.com
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - privacy
+
+
